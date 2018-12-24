@@ -16,7 +16,7 @@ C.redirectAfterClick = true; //if true user is redirected to an url after clicki
 C.redirectDelayMs = 1000; //delay in milliseconds, before the redirect is done (so that the user can see the change of the button to semi-transparent)
 
 C.translations['confirmDonate'] = {
-    'en' : "Do you want to donate the amount of {0}{1}? Clicking on 'OK' will mark this amount as done and redirect you to a page where you should use code number G8650 in the field 'Person/Project/Account:' as payment information.",
+    'en' : "Do you want to donate the amount of {1}{0}? Clicking on 'OK' will mark this amount as done and redirect you to a page where you should use code number G8650 in the field 'Person/Project/Account:' as payment information.",
     'de' : 'Möchtest du wirklich den Betrag von {0}{1} spenden? Ein Klick auf "OK" wird den Betrag als "gespendet" markieren und dich zu einer Seite, auf der Sie unsere Codenummer G8650 in das Feld "Person/Project/Account:" wie Zahlungsinformationen weiterleiten.',
     'fi' : 'Haluatko lahjoittaa summan {0}{1}? Painamalla ”OK” summa tulee valituksi ja sinut ohjataan sivulle, jossa sinun tulisi kirjoittaa koodi G8650 kenttään "Person/Project/Account:"',
     'sv' : 'Vill du donera summan {0}{1}? när du klickar på "OK" så kommer du att sändas vidare till en sida där du bör använda nummer G8650 i fältet "Person/Project/Account:" som donations info.'
