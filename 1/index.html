@@ -235,7 +235,7 @@
 		  var time = new Date().getTime();
 		  var newHtml = '';
 		  for (var i = C.lowerLimit; i<=C.upperLimit; i++) {
-			 var buttonHtml = '<button id="' + i + '" onclick="buttonClicked(this)"><span>' + i + ' ' + C.currency + '</span></button>';
+			 var buttonHtml = '<button id="' + i + '" onclick="buttonClicked(this)"><span>' + C.currency + '' + i + ' </span></button>';
 			 newHtml += buttonHtml;
 			 if (i % C.elementsByRow == 0) newHtml += '</br>';
 			 document.getElementById('buttons').innerHTML = newHtml;
